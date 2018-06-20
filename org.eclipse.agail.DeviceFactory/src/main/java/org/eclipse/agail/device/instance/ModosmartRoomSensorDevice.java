@@ -76,10 +76,10 @@ public class ModosmartRoomSensorDevice extends AgileBLEDevice implements Device 
 	}
 
 	public static boolean Matches(DeviceOverview d) {
-		return d.name.contains("MODOSMART_ROOM_SENSOR");
+		return d.name.contains("SM006");
 	}
 
-	public static String deviceTypeName = "MODOSMART_ROOM_SENSOR";
+	public static String deviceTypeName = "SM006";
 
 	public ModosmartRoomSensorDevice(DeviceOverview deviceOverview) throws DBusException {
 		super(deviceOverview);

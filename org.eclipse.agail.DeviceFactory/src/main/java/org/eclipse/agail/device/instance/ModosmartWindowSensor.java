@@ -61,10 +61,10 @@ public class ModosmartWindowSensor extends AgileBLEDevice implements Device {
 	}
 
 	public static boolean Matches(DeviceOverview d) {
-		return d.name.contains("MODOSMART_WINDOW_SENSOR");
+		return d.name.contains("WindowSensorUnit");
 	}
 
-	public static String deviceTypeName = "MODOSMART_WINDOW_SENSOR";
+	public static String deviceTypeName = "WindowSensorUnit";
 
 	public ModosmartWindowSensor(DeviceOverview deviceOverview) throws DBusException {
 		super(deviceOverview);
